@@ -488,12 +488,22 @@ footer {
 
 /* OVER MIJ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -*/
 
-.overmij-main {}
+.overmij-main {
+
+}
 
 .overmij-h1 {
     color: white;
     margin: 3% 0;
     padding:0 4%;
+}
+
+.overmij-div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: left;
 }
 
 .overmij-portret-emre {
@@ -503,11 +513,15 @@ footer {
     padding:0 2% 0 4%;
 }
 
+.overmij-portret-emre-tekst-div {
+
+}
+
 .overmij-tekst-p {
     color: white;
     font-size: 20px;
     margin: 0;
-    padding:0 4%;
+    padding-right: 4%;
 }
 
 
