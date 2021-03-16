@@ -1,0 +1,579 @@
+@font-face {
+    font-family: leelawade;
+    src: url(leelawad.ttf);
+}
+h1,h2,h3,p,ul,li,td,a, * {
+    font-family:leelawade;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li, ul {
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.849);
+}
+
+
+
+
+
+/* NAVBAR ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -*/
+
+.navbar {
+    /*height: 7vh;*/
+    height: 60px;
+    background-color: #3c1e3c;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.navbar-ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0 5% 0 0;
+    padding: 0;
+    height: 100%;
+    float: right 
+}
+
+.navbar-li {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar-a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    /*background-color: rgb(22, 22, 68);*/
+    margin: 0 0 0 50px;
+    padding: 0 20px;
+    height: 100%;
+    /*font-size: 25px;*/
+    font-size: 1.5vw;
+}
+
+.navbar-a:hover {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin: 0 0 0 50px;
+    padding: 0 20px;
+    height: 100%;
+    /*font-size: 25px;*/
+    font-size: 1.5vw;
+}
+
+.navbar-a:active {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin: 0 0 0 50px;
+    padding: 0 20px;
+    height: 100%;
+    /*font-size: 25px;*/
+    font-size: 1.5vw;
+}
+
+.navbar-a-current {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.534);
+    margin: 0 0 0 50px;
+    padding: 0 20px;
+    height: 100%;
+    /*font-size: 25px;*/
+    font-size: 1.5vw;
+}
+
+.navbar-ul-logos {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 2%;
+    padding: 0;
+    height: 100%;
+    float: left 
+}
+
+.linkedin-logo {
+    background-color: transparent;
+    float: left;
+    width: 40px;
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+.github-logo {
+    background-color: transparent;
+    float: left;
+    width: 60px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* FOOTER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -*/
+
+footer {
+    height: 5vh;
+    background-color: #3c1e3c; 
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.footer-a {
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-a:hover {
+    font-size: 30px;
+    color: grey;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+/* HOME ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -*/
+
+.home-pic {
+    height: 100vh;
+}
+
+.foto-TM {
+    display: inline-block;
+    margin-top: 0;
+    float: right;
+    padding-top: 2vh;
+}
+
+.home-pic-emre-div {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home-pic-emre {
+    border: solid white;
+    display: inline-block;
+
+    /*margin:50vh 0 0 40vw;*/
+    padding: 10px;
+
+    
+}
+
+.home-pic-emre-tekst {
+    color: white;
+    font-size: 70px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+
+.home-main {
+    
+}
+
+/*over mij ------------------------------------------------------*/
+
+.home-overmij {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: flex-end;
+    align-content: center;
+    padding: 2% 5%;
+}
+
+.home-portret-emre {
+    margin: 0;
+}
+
+.home-portret-emre-img {
+    border-radius: 100%;
+}
+
+.home-overmij-tekst {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    width: 60vw;
+    margin-left: 5vw;
+}
+
+.home-overmij-h2 {
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+}
+
+.home-overmij-p {
+    font-size: 20px;
+    color: white;
+}
+
+.home-overmij-buttons {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.home-overmij-button-meer {
+    background-color: #3c1e3c;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+}
+
+.home-overmij-button-meer:hover {
+    background-color: #3c1e3c;
+    color: grey;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+}
+
+.home-overmij-button-cv {
+    background-color: #3c1e3c;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+    margin-left: 2%;
+}
+
+.home-overmij-button-cv:hover {
+    background-color: #3c1e3c;
+    color: grey;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+    margin-left: 2%;
+}
+
+/*projecten ------------------------------------------------------*/
+
+.home-projecten {
+    background-color: #4a4a4a78;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2% 5%;
+}
+
+.home-projecten-h2 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+}
+
+.home-projecten-galerij {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:2% 15% 2% 15%;
+}
+
+.home-projecten-galerij-artikel {
+    display: flex;
+    flex-flow: column;
+    width: 13vw;
+}
+
+.home-projecten-galerij-artikel-h3 {
+    color: white;
+    margin-bottom: 5%;
+}
+
+.home-projecten-galerij-artikel-p {
+    color: white;
+    margin: 0;
+}
+
+.home-projecten-button{
+    display: flex;
+    justify-content: center;
+}
+
+.home-projecten-button-meer {
+    background-color: #3c1e3c;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+}
+
+.home-projecten-button-meer:hover {
+    background-color: #3c1e3c;
+    color: grey;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+}
+
+/*thomas more ------------------------------------------------------*/
+
+.home-thomasmore {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: center;
+    padding: 2% 5%;
+}
+
+.home-thomasmore-TMfoto {
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.home-thomasmore-TMfoto-img {
+    
+}
+
+@media screen and (max-width: 1370px) {
+    .home-thomasmore-TMfoto {
+        display: inline-block;
+        height: 100%;
+        margin: 5% 0 0 5vw;
+        vertical-align: middle;
+    }
+}
+
+.home-thomasmore-tekst {
+    display: flex;
+    flex-flow: column;
+    align-content: space-between;
+    width: 40vw;
+    margin-left: 5vw;
+}
+
+.home-thomasmore-h2 {
+    font-size: 35px;
+    color: white;
+    margin-top: 0;
+}
+
+.home-thomasmore-p {
+    font-size: 20px;
+    color: white;
+}
+
+.home-thomasmore-button {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.home-thomasmore-button-meer {
+    background-color: #3c1e3c;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+}
+
+.home-thomasmore-button-meer:hover {
+    background-color: #3c1e3c;
+    color: grey;
+    font-size: 25px;
+    padding: 2.5px 12.5pX;
+}
+
+
+
+
+
+/* PROJECTEN ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -*/
+
+.projecten-main {}
+
+.projecten-h1 {
+    color: white;
+    margin: 3% 0;
+    padding:0 4%;
+}
+
+.projecten-galerij {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding:0 4%;
+}
+
+.projecten-galerij-artikel {
+    display: flex;
+    flex-flow: column;
+    width: 40vw;
+    margin-right: 1%;
+    margin-bottom: 7%;
+    border-bottom: solid #6260f3;
+}
+
+.projecten-galerij-artikel-head {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.home-projecten-galerij-artikel-img {
+
+}
+
+.projecten-galerij-artikel-head-tekst {
+    padding-left: 5%;
+}
+
+.projecten-galerij-artikel-head-h3 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.projecten-galerij-artikel-head-p {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.projecten-galerij-artikel-beschrijving {
+    font-size: 20px;
+    color: white;
+}
+
+@media screen and (max-width: 1175px) {
+    .projecten-galerij {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        padding:0 4%;
+    }
+
+    .projecten-galerij-artikel {
+        display: flex;
+        flex-flow: column;
+        width: 70vw;
+        margin-right: 1%;
+        margin-bottom: 7%;
+        border-bottom: solid #6260f3;
+    }
+}
+
+
+
+
+
+/* OVER MIJ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -*/
+
+.overmij-main {}
+
+.overmij-h1 {
+    color: white;
+    margin: 3% 0;
+    padding:0 4%;
+}
+
+.overmij-portret-emre {
+    display: inline;
+    float: left;
+    margin: 0;
+    padding:0 2% 0 4%;
+}
+
+.overmij-tekst-p {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding:0 4%;
+}
+
+
+
+
+
+
+/* CONTACT ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -*/
+
+.contact-h1 {
+
+}
+
+.contact-h1 {
+    color: white;
+    margin: 3% 0;
+    padding:0 4%;
+}
+
+.contact-form {
+    margin: 0;
+    padding:0 4%;
+}
+
+.contact-form-fieldset {
+    margin-bottom: 2%;
+}
+
+.contact-form-legend {
+    color:white;
+}
+
+.contact-form-div {
+    display: inline-flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0.5% 1%;
+}
+
+.contact-form-label {
+    color:white;
+    vertical-align: top;
+    margin: 0.5em 0;
+}
+
+.contact-form-input {
+    margin: 0.5em 0;
+}
+
+.contact-form-vraag-div {
+    margin: 0;
+    padding: 0.5% 1%;
+}
+
+/* STAGE ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -*/
+
+.stage-h1 {
+
+}
+
+.stage-h1 {
+    color: white;
+    margin: 3% 0;
+    padding:0 4%;
+}
+
+
+
+
