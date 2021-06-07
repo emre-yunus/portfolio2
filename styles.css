@@ -15,6 +15,10 @@ li, ul {
     display: inline-block;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: rgba(0, 0, 0, 0.849);
@@ -59,8 +63,7 @@ body {
     margin: 0 0 0 50px;
     padding: 0 20px;
     height: 100%;
-    /*font-size: 25px;*/
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 
 .navbar-a:hover {
@@ -72,8 +75,7 @@ body {
     margin: 0 0 0 50px;
     padding: 0 20px;
     height: 100%;
-    /*font-size: 25px;*/
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 
 .navbar-a:active {
@@ -85,8 +87,7 @@ body {
     margin: 0 0 0 50px;
     padding: 0 20px;
     height: 100%;
-    /*font-size: 25px;*/
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 
 .navbar-a-current {
@@ -98,8 +99,7 @@ body {
     margin: 0 0 0 50px;
     padding: 0 20px;
     height: 100%;
-    /*font-size: 25px;*/
-    font-size: 1.5vw;
+    font-size: 25px;
 }
 
 .navbar-ul-logos {
@@ -128,8 +128,9 @@ body {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 1335px) {
 
-
+}
 
 
 /* FOOTER ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -*/
@@ -164,6 +165,12 @@ footer {
 
 /* HOME ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ -*/
 
+.welcome {
+    background-image: url('desktop-background-dark2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 .home-pic {
     height: 100vh;
 }
@@ -176,9 +183,8 @@ footer {
 }
 
 .home-pic-emre-div {
-    height: 100vh;
-    width: 100vw;
-
+    height: 80vh;
+    width: 98vw;
     display: flex;
     flex-flow: row;
     justify-content: center;
@@ -208,7 +214,18 @@ footer {
     
 }
 
-/*over mij ------------------------------------------------------*/
+.scroll-button {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+@media screen and (max-height: 428px) {
+    .scroll-button {
+        margin-top: 0;
+    }
+}
+/*home over mij ------------------------------------------------------*/
 
 .home-overmij {
     display: flex;
@@ -436,15 +453,11 @@ footer {
 
 .projecten-galerij-artikel-head {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
-.home-projecten-galerij-artikel-img {
-
-}
-
-.projecten-galerij-artikel-head-tekst {
-    padding-left: 5%;
+.projecten-galerij-artikel-img {
+    margin-right: 5%;
 }
 
 .projecten-galerij-artikel-head-h3 {
@@ -482,8 +495,11 @@ footer {
     }
 }
 
-
-
+@media screen and (max-width: 429px) {
+    .projecten-galerij-artikel-img {
+        width: 70vw;
+    }
+}
 
 
 /* OVER MIJ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -*/
@@ -510,11 +526,11 @@ footer {
     display: inline;
     float: left;
     margin: 0;
-    padding:0 2% 0 4%;
+    padding:0 0 0 4%;
 }
 
 .overmij-portret-emre-tekst-div {
-
+    padding-left: 4%;
 }
 
 .overmij-tekst-p {
@@ -524,7 +540,11 @@ footer {
     padding-right: 4%;
 }
 
-
+@media screen and (max-width: 750px) {
+    .overmij-div {
+        flex-wrap: wrap;
+    }
+}
 
 
 
@@ -574,6 +594,10 @@ footer {
 .contact-form-vraag-div {
     margin: 0;
     padding: 0.5% 1%;
+}
+
+.contact-form-textarea {
+    width: 90%;
 }
 
 /* STAGE ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -*/
